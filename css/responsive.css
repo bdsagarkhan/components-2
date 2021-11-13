@@ -1,0 +1,40 @@
+/* Extra Extra large devices >> xxl (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+	.box {
+		background: purple;
+	}
+}
+
+/* Extra large devices >> xl (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+	.box {
+		background: cyan;
+	}
+}
+
+/* Large devices >> lg (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+	.box {
+		background: black;
+	}
+}
+
+/* Medium devices >> md (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+	.box {
+		background: #ff0000;
+	}
+}
+
+/* Small devices >> sm (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+	.box {
+		background: skyblue;
+	}
+}
+
+/* Extra small devices ( portrait phones, 575px and down) */
+@media only screen and (max-width: 575.98px) {...}
+
+
+
